@@ -12,6 +12,8 @@ export class EmailAnalyzerService {
             headers: {
                 'Content-Type': 'application/json',
                 authorization: authToken,
+                'Access-Control-Allow-Origin':
+                    'https://caiofuccio.github.io/fugu-code-assignment-frontend',
             },
         }).then(response => {
             if (!response.ok) throw new Error(`Unable to connect to the server`);
