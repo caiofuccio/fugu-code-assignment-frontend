@@ -3,9 +3,9 @@ import styles from './styles.module.scss';
 
 export const Input = ({ title, text, placeholder, onChange }: PropTypes) => {
     return (
-        <div className={styles['input']}>
+        <div className={styles['container']}>
             <span>{title}</span>
-            <input type="text" value={text} placeholder={placeholder} onChange={onChange} />
+            <textarea value={text} placeholder={placeholder} onChange={onChange} />
         </div>
     );
 };

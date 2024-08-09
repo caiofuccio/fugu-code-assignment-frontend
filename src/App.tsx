@@ -28,15 +28,17 @@ function App() {
     return (
         <div className={styles['container']}>
             <Card>
-                <h1>EMAIL SUMMARIZER</h1>
+                <h1 className={styles['page-title']}>EMAIL SUMMARIZER</h1>
                 <Input
                     title={inputTitle}
                     placeholder={inputPlaceholder}
                     text={mailText}
                     onChange={e => setMailText(e.target.value)}
                 />
-                <Button title={buttonTitle} onClick={sendMessage} />
-                <div>
+                <div className={styles['button-container']}>
+                    <Button title={buttonTitle} onClick={sendMessage} />
+                </div>
+                <div className={styles['summary-container']}>
                     {summaryData && (
                         <div>
                             <Text label="Summary" text={summaryData.summary} />

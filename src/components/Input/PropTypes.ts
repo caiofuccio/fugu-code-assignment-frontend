@@ -4,5 +4,5 @@ export type PropTypes = {
     title: string;
     text: string;
     placeholder: string;
-    onChange: ChangeEventHandler<HTMLInputElement>;
+    onChange: ChangeEventHandler<HTMLTextAreaElement>;
 };

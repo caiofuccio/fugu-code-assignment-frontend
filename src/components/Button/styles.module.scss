@@ -1,16 +1,16 @@
 .button {
     background: #5db073;
     color: #fff;
-    width: 240;
-    height: 50;
-    border-radius: 6;
+    width: 400px;
+    height: 32px;
+    border-radius: 6px;
     border-color: transparent;
     text-transform: uppercase;
-    transition: all 0.5 ease-out;
-    font-size: 16;
+    font-size: 18px;
     font-weight: bold;
+    transition: background-color 0.3s ease;
     &:hover {
         cursor: pointer;
-        opacity: 0.8;
+        background-color: darken(#5db073, 15%);
     }
 }

@@ -1,7 +1,27 @@
-.background {
-    background: #bbbbbb;
-    width: 100%;
-    height: 100%;
+.container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f0f0;
+    width: 100vw;
+    height: 100vh;
     justify-content: center;
     align-items: center;
+    display: flex;
+}
+
+.page-title {
+    margin: 0 0 40px 0;
+    text-align: center;
+    color: #545454;
+}
+
+.button-container {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.summary-container {
+    color: #545454;
+    margin-top: 20px;
+    display: flex;
+    justify-content: first baseline;
 }
