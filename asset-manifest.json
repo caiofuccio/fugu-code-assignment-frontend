@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/fugu-code-assignment-frontend/static/css/main.fc5f7504.css",
-    "main.js": "/fugu-code-assignment-frontend/static/js/main.c186d095.js",
+    "main.css": "/fugu-code-assignment-frontend/static/css/main.e4a012c9.css",
+    "main.js": "/fugu-code-assignment-frontend/static/js/main.cba65055.js",
     "index.html": "/fugu-code-assignment-frontend/index.html",
-    "main.fc5f7504.css.map": "/fugu-code-assignment-frontend/static/css/main.fc5f7504.css.map",
-    "main.c186d095.js.map": "/fugu-code-assignment-frontend/static/js/main.c186d095.js.map"
+    "main.e4a012c9.css.map": "/fugu-code-assignment-frontend/static/css/main.e4a012c9.css.map",
+    "main.cba65055.js.map": "/fugu-code-assignment-frontend/static/js/main.cba65055.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc5f7504.css",
-    "static/js/main.c186d095.js"
+    "static/css/main.e4a012c9.css",
+    "static/js/main.cba65055.js"
   ]
 }
